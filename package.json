@@ -1,0 +1,26 @@
+{
+  "name": "cypress-api-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --reporter mochawesome",
+    "save:results": "node ./utils/extract.report.mysql.js",
+    "migrate": "node-pg-migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "mochawesome": "^6.1.1",
+    "mysql": "^2.18.1",
+    "npm": "^6.14.5"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "cypress-time": "^1.0.0",
+    "jsonpath": "^1.0.2",
+    "node-pg-migrate": "^5.9.0",
+    "wdio-mochawesome-reporter": "^4.0.0"
+  }
+}

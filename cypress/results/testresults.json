@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "name": "Google Test",
+      "time": 1968.7300000005052,
+      "timestamp": "2021-10-04T18:26:00.575Z"
+    },
+    {
+      "name": "Amazon Test",
+      "time": 1918.6699999991106,
+      "timestamp": "2021-10-04T18:26:07.397Z"
+    },
+    {
+      "name": "netflix Test",
+      "time": 2011.274999997113,
+      "timestamp": "2021-10-04T18:26:13.987Z"
+    }
+  ]
+}
